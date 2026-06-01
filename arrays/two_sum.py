@@ -34,7 +34,7 @@ def two_sum(numbers, target):
 
         # Store current number and its index
         # so future elements can use it
-         # Store only first occurrence
+        # Store only first occurrence
         if num not in seen:
             seen[num] = i
 
@@ -43,17 +43,9 @@ def two_sum(numbers, target):
 
 
 # Take array input from user
-numbers = list(
-    map(
-        int,
-        input("Enter numbers separated by spaces: ").split()
-    )
-)
-
+numbers = list(map(int,input("Enter numbers separated by spaces: ").split()))
 # Take target input
 target = int(input("Enter target: "))
-
-# Call the function
 result = two_sum(numbers, target)
 
 # Handle different cases
