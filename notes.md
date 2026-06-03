@@ -332,3 +332,28 @@ O(1) average
 - Trees
 - Graphs
 - Dynamic Programming
+
+
+
+# Contains Duplicate
+
+Pattern:
+Hash Set
+
+Approach:
+1. Create an empty set.
+2. Traverse the array.
+3. If current number already exists in set:
+   return True
+4. Otherwise add it to set.
+5. If loop completes:
+   return False
+
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
+Learning:
+- Set lookup is O(1) average.
+- Set insert is O(1) average.
+- Better than using a list.
