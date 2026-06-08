@@ -357,3 +357,23 @@ Learning:
 - Set lookup is O(1) average.
 - Set insert is O(1) average.
 - Better than using a list.
+
+
+# Valid Anagram
+
+Pattern:
+Frequency Counting
+Hash Map
+
+Approach:
+1. Count frequency of characters in first word.
+2. Count frequency of characters in second word.
+3. Compare both dictionaries.
+
+Time Complexity: O(n)
+
+Space Complexity: O(n)
+
+Learning:
+Dictionary can be used for frequency counting.
+Two dictionaries are equal if all keys and values match.
